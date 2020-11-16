@@ -12,14 +12,14 @@
 </head>
 
 <body onload="invis()">
-
+    <div class="container">
     <center>
         <ul id="menu">
             <li class="links" onclick="changes()"><a href="#intro">About me</a></li>
             <li class="links"><a href="#contact">Contact</a></li>
             <li class="links"><a href="#info on art">Info on my hobby</a></li>
             <li class="links"><a href="#articles">Articles</a></li>
-            <li class="links"><a href="#work">My Work</a></li>
+            <li class="links"><a href="#carousel_caption">My Work</a></li>
             <li class="links" onclick="change()"><a href="#intro">Inspiration</a></li>
 
         </ul>
@@ -55,19 +55,17 @@
         </center>
     </section>
     <br>
-    <section id="work">
-        <h7 class="below games"><b>Click on below games, to have fun!</b></h7>
+        <h7 class="below games" id="carousel_caption"><b>Click on below games, to have fun!</b></h7>
         <br>
         <br>
-        <div class="container">
-            <div id="myCarousel" class="carousel-slide">
+        <div id="myCarousel" class="carousel slide">
                 <div class="carousel-inner">
-                    <div class="item-active">
+                    <div class="item active">
                         <center>
-                            <a href="https://studio.code.org/projects/playlab/6_IEDQ54Tgj9bc1C8mDF_Ery_LXKQpeB1z1J6aIBHpo" target="_blank"><img src="Screen Shot 2020-10-20 at 5.11.49 PM.png" class="img-responsive"></a>
+                            <a href="https://studio.code.org/projects/playlab/6_IEDQ54Tgj9bc1C8mDF_Ery_LXKQpeB1z1J6aIBHpo" target="_blank"><img src="Screen Shot 2020-11-16 at 4.48.30 PM.png" class="img-responsive"></a>
                         </center>
                     </div>
-                    <div id="item">
+                    <div class="item">
                         <center>
                             <a href="https://studio.code.org/projects/spritelab/c_W3xbHpGHU1jSCtNmcqcRsB4-2sWU6E3EEMSA8ysmw" target="_blank"><img src="Screen Shot 2020-10-20 at 5.14.42 PM.png" class="img-responsive"></a>
                         </center>
@@ -78,8 +76,6 @@
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
-        </div>
-    </section>
     <section class="sections" id="info on art">
         <h6>Info on Drawing</h6>
         <br>
@@ -102,6 +98,7 @@
             </a>
         </div>
     </section>
+    </div>
 </body>
 
 </html>
